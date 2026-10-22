@@ -14,7 +14,6 @@ workflows:
         script: |
           flutter --version
           java -version
-          cd android && ./gradlew --version
       - name: Clean project
         script: flutter clean
       - name: Get dependencies
